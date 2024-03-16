@@ -3,7 +3,7 @@
 ## Usage
 
 ```
-Usage: wallpaper <action> [path to image]
+Usage: xwallpaper <action> [path to image]
 Actions:
   set <path to image> - save the wallpaper from the given path (doesn't apply it)
   apply - apply the wallpaper from the saved path
@@ -15,7 +15,7 @@ Also optional flag when using `set`, `-o` which sets the path to save the wallpa
 ## Building
 
 ```sh
-$ go build -o bin/wallpaper .
+$ go build -o xwallpaper .
 ```
 
 ## Plans
